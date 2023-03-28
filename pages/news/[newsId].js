@@ -6,7 +6,7 @@ const NewsDetailPage = () => {
   return (
     <>
       <h1>The News Detail Page</h1>
-      
+      <h3>{router.query.newsId}</h3>
     </>
   );
 };
